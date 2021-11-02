@@ -221,6 +221,36 @@ mamifero  <<<< super classe >>>>subclasse>>>cachorrto
 Mamifero é mais generico e Cachorro mais especifico
 Uma sub-classe pode sobreescrever o comportamento  de uma super classe.
 
+HERANÇA MULTIPLA
+Algumas linguagens (C++)aceitam este conceito ,
+permitindo uma classe tenha mais d euma super classe.
+Ex: Golfinho herda de mamifero e de animal marinho .
+Java nao permite.Porém uma classe pode implementar
+Diversos contratos  (interfaces)
+
+POLIMORFISMO
+Possibilita que métodos diferentes,que estao em diferentes
+niveis de hierarquia de classes tenbham o mesmo nome
+e apresentem diferentes comportamentos
+As sub-classes podem redefenir os  comportamentos
+herdados de maneira diferente
+EXE:
+O mamifero se movimenta. >> classe  >mamifero 
+O cachorro se movimenta em terra. >> classe > cachorroMamifero
+O Golfinho se movimenta na agua. >> classe > GolfinhoMamifero
+
+MODULARIDADE
+Capacidade de criar um conjunto de modulos,
+Cada um contendo Classes com idependencia
+de funcionamento
+
+MENSAGENS
+objetos se comunicam por meio de envio  e recebimento de mensagens.
+
+
+
+
+
 
 
 """)
