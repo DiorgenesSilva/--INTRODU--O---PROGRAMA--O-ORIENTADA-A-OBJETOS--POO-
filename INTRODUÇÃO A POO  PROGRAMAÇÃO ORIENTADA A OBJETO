@@ -1,0 +1,86 @@
+#Introdução a Poo]
+#PROGRAMAÇÃO ORIENTADA A OBJETOS
+print("""
+PARADIGMAS DE PROGRAMAÇÃO 
+* Paradigmas Estruturado 
+* Paradigma Funcional 
+* Paradigma Orientada o Objetos
+
+#########################################################
+
+PROGRAMAÇÃO ESTRUTURAL PARADIIGMA ESTRUTUTURADO 
+Neste caso o usuario segue uma seuqncia de instruções,
+usam comandos condicioanis e interaticos e utilizando funçoes 
+> Procedimentros sao implementados em blocos ]
+> A comunicação entre os Blocos se da pela passagem de dados 
+O OBJETIVO DA PROGRAMAÇÃO ESTRUTURADA 
+è Desenhar um conjunto de funções que solucionem as tarefas requeridas 
+Caso as funções sejam muito grandes,quebra las em funções menoes.
+Informações são armazenadas em variáveis globais
+Lingauens >  C,Pascal,Fortran.
+
+==================================================================
+
+PROGRAMAÇÃO FUNCIONAL,PARADIGMA FUNCIONAL
+Programação Funcional
+Não existe declaração de variaveis,somente funções
+Lingaugens : LISP,HASKELL
+
+=================================================================
+
+PROGRAMAÇÃO ORIENTADAS A OBJETO POO,PARADIGMA ORIENTADA A OBJETO
+Dados e Funções relacionados sao encapsulados em um mesmo elemento denominado objeto.
+A comunicação entre objetos é feita pelo envio e recebimento de mensagens
+Objetivo
+Desenhar um conjunto de classes que descrevam objetos semelhantes
+e que entendam as tarefas rrequeridas
+Oque sao as classes :
+Elas agrupam um conjunto de objetos semelhantes
+Liguagens > Smalltalk,java,C++,C#,Delphi,Ruby,Python
+
+VANTAGENS DA POO
+> Maior indice de reaproveitamento de código.
+Quando o usuario divide o problema dele em partes que sao as classes
+se tem um  maior aproveitamento do código.
+Voce pode aproveitar o código de um lugar para outro 
+
+> Maior facilidade de Mnutenção
+Mais facilidade para manter o codigo
+
+> Maior confiabilidade no código
+Voce pode resolver um problema isolado sem afetar as outrras partes
+
+> Maior facilidade de gerenciamento de código
+> Maior robustez .
+
+
+""")
+#
+print(50 * "=" )
+#
+print("""
+Exemplo: Escreva um programa para registrar
+as 4 notas de cada um de 10 alunos em uma disciplina
+e calcular a media de cada um
+""")
+#
+print(50 * "=")
+#
+print("""Programação estruturada(c):
+int[10][4]notas;
+int[10]medias;
+void leNotas(){...}
+void calculaMedia(){...}
+void imprimeMedia(){...}
+void main(){...}
+
+Qual é o objeto mais importante desse problema  ?
+è o aluno
+E Quais as informações mais informaçoes  desse objeto  ?
+Sao os nomes as notas e as medias 
+
+
+""")
+#
+print(50 *  "=" )
+#
