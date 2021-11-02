@@ -75,9 +75,152 @@ void imprimeMedia(){...}
 void main(){...}
 
 Qual é o objeto mais importante desse problema  ?
-è o aluno
-E Quais as informações mais informaçoes  desse objeto  ?
+è o aluno,10 alunos ou 10 objetos 
+E Quais as informações mais importantes  desse objeto  ?
 Sao os nomes as notas e as medias 
+Quais as funções ou metodos que eu preciso que vao estar relcioandos com esse aluno ou do objeto ?
+ Ler as informações,pegar notas,dar media ,imprime od dados
+ Entao teremos 2 Classes
+
+ Uma CLASSE QUE IRA CHAMAR de Aluno
+ String Nome:
+ int[4]nota:
+ dpuble media:
+ _________________________
+ void LeinformaçãoAluno():
+ voidcalcularMedia():
+ VoidImprimeDados()
+
+
+Outra CLASSE CHAMADA REGISTRO de NOTAS
+int main(String(largs)
+
+
+DEFINIÇÃO DE OJETO. ]
+É uma entidade que formaliza o modo pelo qual
+compreendemos algo no dominio do problema .
+É a entidade mais proxima possivel do mundo ral.
+Objetos sao os substantivos do dominio do problema.
+
+OS OBJETOS TEM  > ESTADO,COMPORTAMENTO E IDENTIDADE
+
+ESTADO  : é definido pelas propriedades que ele possui  e os valores que lhe são atribuidos.
+
+COMPORTAMENTO : definido pela forma que ele reage,em termos de mudança de seu estado e
+relacionamento com os outros objetos
+
+IDENTIDADE : propriedade pela qual ele se distingue dos outros.
+
+OQUE É UMA CLASSSE:
+Representação de ualquer coisa quew seja necessaria modelar
+para solucionar o problema .
+Pode ser visto como uma caixa preta,que expõe somente alguns
+dados e algumas funções.
+Ele descreve um conjunto de objetos semelhantes,isto é atribuitos
+e métodos que resumem as caracteristicas comuns de varios objetos
+A classe é uma abstração que define que os objetos sao e como se comportam .
+Ex: Aluno,Professor,Cliente,vendedor,livro.
+
+Entendemos que estes jogos estao muito rtelacionados
+Mas qual a diferença entre eles entao ?
+CLASSE X OBJETOS
+
+A CLASSE define a estrutura, o objeto é a instancia da classe ,]
+a qual  lhe são atribuidos valores.
+
+O  OOBJETO é uma entiidade concreta com tempo e espaço
+de existencia,enquanto a classe é apenas uma abstração
+
+MEMBROS DA CLASSE
+Atributos (propriedades)
+Métodos (funções\serviçoes)
+
+ATRIBUTO (PROPRIEDADES)
+São os dados que  o objeto armazenará.
+Ao criar um objeto,se criará também o espaço de memoria
+para todos os atributos dele
+o estado do objetivo é representado pelos valores de seus atribuidos.
+
+METODOS (FUNÇÕES\SERRVIÇOS)
+São as operações que podem ser executadas pelos objetos.
+Definem o comportamento do objeto.
+São equivalentes ás funções utilizadas na programação estruturada.
+A diferença principal é que tem acesso direto a todos os atributos do objeto .
+
+PARA REPRESENTAR UMA CLASSE TEM UMA NOTAÇÃO GRAFICA
+Permite visulaizar uma abst5ração
+Permite focar a atenção nas partes mais importanrtes de uma abstraçãoi
+Independe da linguagem de programção.
+
+                             ALUNO
+      ___________________________                             
+
+        String nome:
+        int[4]nota:
+        doubleMedia:
+_______________________
+        void:
+
+        LeinformaçãoAluno():
+        void CalculaMedia(0:
+        void Imprimedados():
+
+EXEMPLO :
+Claase: Aluno
+objeto:
+Aluno a1=new Aluno();Atributos : nome,nota,media.
+metodos: Le InformaçaoAluno,(): ,CalculaMedia(0),Imprimedados():...
+
+PRINCIPIOS BASICOS DA POO
+> ABSTRAÇÃO
+> ENCAPSULAMENTO
+> COMPOSIÇÃO\AGREGAÇÃO
+> HERANÇA
+> POLIMORFISMO
+> MODULARIDADE
+> MENSAGENS
+
+ABSTRAÇÃO
+Consiste em identificar artefatos de software na modelagem de um dominio,
+ignorando aspectos nao relevantres e concentrando se nos assusntos
+principais do problema.
+Classes sao abstrações de coneitos .
+Suponha que vamos resolver o problema acima.
+e voce queira verificar que time o aluno torce,essa informação é irrelevantes
+
+ENCAPSULAMENTO
+Esconder os detalhes da implementação de um objeto .
+A idéia que o sistema nao deve depender de sua implementação interna e sim de sua interface
+è a capacidade de um objeto possuir uma parte privada,
+acessivel somente através dos métodos definidos na sua interfac epública.
+Exe: Nao que outro objeto possa alterar a média do aluno manualmente.
+
+RELACIONAMENTOS ENTRE OS ONJETOS
+RELACIONAMENTOOS
+os objetos se relacionam enre si:
+Associação: qualquer verbo pode ser utilizado
+Composição\Agregação:parte-de
+herança:É um
+
+ASSOCIAÇÃO
+Funcionarios  1 <<>> 1 Empresa
+
+COMPOSIÇÃO
+A roda só existe quando a bicicleta existe
+Roda 2 << >> 1  bicicleta
+
+AGREGAÇÃO
+O cliente existe idependente da existencia da conta
+Cliente  2 << >>  1 Conta
+
+HERANÇA (GENERALIZAÇÃO\ESPECIALIZAÇÃO):É-um
+permite a Hierarquização das classes.
+Uma classe mais especializada(sub classe)
+herda metodos e atributos de uma classe mais geral (super classse)
+mamifero  <<<< super classe >>>>subclasse>>>cachorrto
+Mamifero é mais generico e Cachorro mais especifico
+Uma sub-classe pode sobreescrever o comportamento  de uma super classe.
+
 
 
 """)
